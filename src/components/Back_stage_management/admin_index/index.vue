@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper">
-      系统首页（/admin_index/index）
       <!-- <div class="wrapper"> -->
         <mainhead></mainhead>
         <mainaside></mainaside>

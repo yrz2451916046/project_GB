@@ -2,323 +2,588 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-          style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
-    </a>
+    <a href="#" class="brand-link">
+      <!-- <img src="../../assets/img/u208.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+          style="opacity: .8"> -->
+      <span class="brand-text font-weight-light">工保网后台业务管理系统</span>
+    </a>  
 
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-        </div>
-        <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
-        </div>
-      </div>
-
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
               with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fa fa-dashboard"></i>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <!-- <i class="nav-icon fa fa-dashboard"></i> -->
               <p>
-                Dashboard
+               首页
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Dashboard v1</p>
+                  <p>系统首页</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Dashboard v2</p>
+                  <p>消息中心</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Dashboard v3</p>
+                  <p>账户设置</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>登录日志</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
-              <i class="nav-icon fa fa-th"></i>
-              <p>
-                Widgets
-                <span class="right badge badge-danger">New</span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-pie-chart"></i>
+              <!-- <i class="nav-icon fa fa-th"></i> -->
               <p>
-                Charts
+                用户
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>ChartJS</p>
+                  <p>用户</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Flot</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/inline.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inline</p>
+                  <p>经纪人</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-tree"></i>
+              <!-- <i class="nav-icon fa fa-pie-chart"></i> -->
               <p>
-                UI Elements
+               商品
+                <i class="right fa fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p> 商品管理<i class="right fa fa-angle-left"></i></p>
+                  
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>商品列表</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>添加商品</p>
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>商品审核</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>保险机构</p>
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>添加机构</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>机构审核</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>险种列表</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>添加险种</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>险种审核</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>商品配置
+                    <i class="right fa fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>保险类型</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>保险品牌</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>保险品牌</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>投保单管理</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <!-- <i class="nav-icon fa fa-tree"></i> -->
+              <p>
+               订单
                 <i class="fa fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>General</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/icons.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Icons</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/buttons.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Buttons</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/sliders.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Sliders</p>
+                  <p>订单列表</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-edit"></i>
+              <!-- <i class="nav-icon fa fa-edit"></i> -->
               <p>
-                Forms
+                客服
                 <i class="fa fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>General Elements</p>
+                  <p>订单审核</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Advanced Elements</p>
+                  <p>补录信息</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Editors</p>
+                  <p>项目审核</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>企业审核</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-table"></i>
+              <!-- <i class="nav-icon fa fa-table"></i> -->
               <p>
-                Tables
+                风控
                 <i class="fa fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>风控管理
+                    <i class="fa fa-angle-left right"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>订单审核</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>补录信息</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>风控单</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>风控报告</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>保后管理</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>风控配置
+                    <i class="fa fa-angle-left right"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Simple Tables</p>
+                  <p>风控单模板</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Data Tables</p>
+                  <p>风控报告模板</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>风控模型</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>业务字段管理</p>
                 </a>
               </li>
             </ul>
+              </li>
+            </ul>
           </li>
-          <li class="nav-header">EXAMPLES</li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <!-- <i class="nav-icon fa fa-dashboard"></i> -->
+              <p>
+              资源
+                <i class="right fa fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>资源管理<i class="right fa fa-angle-left"></i></p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>项目列表</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>添加项目</p>
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>企业列表</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>添加企业</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>资源配置<i class="right fa fa-angle-left"></i></p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>项目信息字段</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>企业信息字段</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
           <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
-              <i class="nav-icon fa fa-calendar"></i>
+            <a href="#" class="nav-link">
+              <!-- <i class="nav-icon fa fa-th"></i> -->
               <p>
-                Calendar
-                <span class="badge badge-info right">2</span>
+               内容
+                <i class="right fa fa-angle-left"></i>
               </p>
             </a>
+             <ul class="nav nav-treeview">
+                <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>资讯管理<i class="right fa fa-angle-left"></i></p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>资讯列表</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>添加资讯</p>
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>资讯审核</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>资讯类型</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>帮助管理<i class="right fa fa-angle-left"></i></p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>帮助列表</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>发布帮助</p>
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>帮助审核</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>帮助分类</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>帮助分类<i class="right fa fa-angle-left"></i></p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>首页banner</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-envelope-o"></i>
+              <!-- <i class="nav-icon fa fa-pie-chart"></i> -->
               <p>
-                Mailbox
-                <i class="fa fa-angle-left right"></i>
+               运营
+                <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/mailbox/mailbox.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inbox</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/mailbox/compose.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Compose</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/mailbox/read-mail.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Read</p>
+                  <p> 系统公告</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-book"></i>
+              <!-- <i class="nav-icon fa fa-tree"></i> -->
               <p>
-                Pages
+               财务
                 <i class="fa fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/examples/invoice.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Invoice</p>
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>财务报表<i class="fa fa-angle-left right"></i></p>
                 </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>综合统计</p>
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/profile.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Profile</p>
+                <a href="#" class="nav-link">
+                  <!-- <i class="fa fa-circle-o nav-icon"></i> -->
+                  <p>对账管理<i class="fa fa-angle-left right"></i></p>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/login.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Login</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/register.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Register</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/lockscreen.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Lockscreen</p>
-                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fa fa-circle-o nav-icon"></i>
+                      <p>对账列表</p>
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-plus-square-o"></i>
+              <!-- <i class="nav-icon fa fa-edit"></i> -->
               <p>
-                Extras
+                报表
                 <i class="fa fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/examples/404.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Error 404</p>
+                  <p>交易统计</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/500.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Error 500</p>
+                  <p>商品统计</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/blank.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Blank Page</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="starter.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Starter Page</p>
+                  <p>会员统计</p>
                 </a>
               </li>
             </ul>
           </li>
-          <li class="nav-header">MISCELLANEOUS</li>
-          <li class="nav-item">
-            <a href="https://adminlte.io/docs" class="nav-link">
-              <i class="nav-icon fa fa-file"></i>
-              <p>Documentation</p>
-            </a>
-          </li>
-          <li class="nav-header">LABELS</li>
-          <li class="nav-item">
+         <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-circle-o text-danger"></i>
-              <p class="text">Important</p>
+              <!-- <i class="nav-icon fa fa-edit"></i> -->
+              <p>
+               系统
+                <i class="fa fa-angle-left right"></i>
+              </p>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-circle-o text-warning"></i>
-              <p>Warning</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-circle-o text-info"></i>
-              <p>Informational</p>
-            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>组织架构</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>角色管理</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>区域管理</p>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
